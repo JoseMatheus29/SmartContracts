@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dataHash",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDataHash",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_dataHash",
+						"type": "string"
+					}
+				],
+				"name": "registerData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DataRegistry.sol": "DataRegistry"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DataRegistry.sol": {
+			"keccak256": "0xc46d339a2f322d94082d7b4d57a77d17a1f7a249eef7ccd60ff880a3c1982414",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12ea8eefc24d33baf2c74515d551fce1cd3d7593cc8a0d1a3f39576920b86ea0",
+				"dweb:/ipfs/QmctBiGWHoNFobKxeaF99sUucGkVVJLM3x3HBZPEoUyJo8"
+			]
+		}
+	},
+	"version": 1
+}
